@@ -3,7 +3,7 @@ syn on
 set smartindent
 set smarttab
 set autoindent
-
+color smyck
 let mapleader = ","
 nnoremap . :
 
