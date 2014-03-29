@@ -1,11 +1,5 @@
 alias ll='ls -la'
-alias l='ls -la'
+alias l='ls -lisah'
 alias lh='ls -lah'
 alias ...='cd ../..'
-alias g='/Users/bernhard/./gmail.sh'
-#alias t='python ~/t.py --task-dir ~/Dropbox/tasks --list tasks'
-alias t='todo.sh -d /Users/bernhard/Dropbox/Apps/todotxt/todo.cfg'
-alias tl='todo.sh -d /Users/bernhard/Dropbox/Apps/todotxt/todo.cfg list'
-alias ta='todo.sh -d /Users/bernhard/Dropbox/Apps/todotxt/todo.cfg add'
-alias td='todo.sh -d /Users/bernhard/Dropbox/Apps/todotxt/todo.cfg do'
-
+alias cdd='cd ~/Dropbox/dev'

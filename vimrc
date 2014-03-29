@@ -26,4 +26,4 @@ set ignorecase                  " searches are case insensitive...
 set smartcase                   " ... unless they contain at least one capital letter
 
 "" Statusbar Airbar
-"set laststatus=2
+set laststatus=2
