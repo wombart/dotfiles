@@ -50,7 +50,7 @@ ZSH_THEME="bureau"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git ruby)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -74,3 +74,5 @@ export PATH="/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/:/usr/l
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
+
+source /Users/bernhard/.rvm/scripts/rvm
