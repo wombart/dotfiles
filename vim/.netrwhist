@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/Users/bernhard/.vim/bundle/colors'
 let g:netrw_dirhist_2='/Users/bernhard/notes'
 let g:netrw_dirhist_3='/Users/bernhard/.zsh'
@@ -8,3 +8,4 @@ let g:netrw_dirhist_5='/Users/bernhard/Dropbox/dotfiles/vim/bundle/ack.vim'
 let g:netrw_dirhist_6='/Users/bernhard/.zsh'
 let g:netrw_dirhist_7='/Users/bernhard/Dropbox/dev/dotfiles/zsh/themes'
 let g:netrw_dirhist_8='/Users/bernhard/Dropbox/dev/dotfiles/zsh'
+let g:netrw_dirhist_9='/Users/bernhard/Dropbox/dev/dotfiles/vim/bundle/supertab'
