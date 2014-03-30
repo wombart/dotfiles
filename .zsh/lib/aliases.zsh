@@ -1,0 +1,5 @@
+alias ll='ls -la'
+alias lh='ls -lah'
+alias l='ls -lah'
+alias ...='cd ../..'
+alias cdd='cd ~/Dropbox/dev'
