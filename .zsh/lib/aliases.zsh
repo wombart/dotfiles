@@ -2,4 +2,9 @@ alias ll='ls -la'
 alias lh='ls -lah'
 alias l='ls -lah'
 alias ...='cd ../..'
-alias cdd='cd ~/Dropbox/dev'
+alias cdd='cd $MY_DEV'
+
+
+# t.py
+alias t='python $MY_DEV/t.py/t/t.py --task-dir $MY_DEV/t.py/tasks --list tasks'
+alias td='python $MY_DEV/t.py/t/t.py --task-dir $MY_DEV/t.py/tasks --list tasks -f '
