@@ -36,6 +36,7 @@ fun! <SID>StripTrailingWhitespaces()
   %s/\s\+$//e
   call cursor(l, c)
 endfun
+
 autocmd BufWritePre * :call <SID>StripTrailingWhitespaces()
 
 " Search related settings
@@ -55,6 +56,7 @@ map <Leader>n :NERDTreeToggle<CR>
 
 " make Python follow PEP8 ( http://www.python.org/dev/peps/pep-0008/ )
 au FileType python set softtabstop=4 tabstop=4 shiftwidth=4 textwidth=79
+au FileType mkd autocmd! BufWritePre
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
