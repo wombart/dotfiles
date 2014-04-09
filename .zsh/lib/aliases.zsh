@@ -2,6 +2,7 @@ alias ll='ls -la'
 alias lh='ls -lah'
 alias l='ls -lah'
 alias ...='cd ../..'
+alias cd..='cd ..'
 alias cdd='cd $MY_DEV'
 
 
