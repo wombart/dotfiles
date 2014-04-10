@@ -1,0 +1,31 @@
+[general]
+accounts = FastMail
+#metadata = ~/Mail/.offlineimap
+#maxsyncaccounts = 2
+
+ui = basic
+#ui = quiet
+
+[Account FastMail]
+localrepository = LocalFM
+remoterepository = RemoteFM
+
+[Repository LocalFM]
+type = Maildir
+#localfolders = ~/Mail/fastmail
+localfolders = ~/.mail/bwh.mm.st
+#subscribedonly = no
+#sep = /
+
+[Repository RemoteFM]
+type = IMAP
+remotehost = mail.messagingengine.com
+remoteuser = *********
+remotepass = *********
+#remotepassfile = ~/.config/offlineimap/taylor.fastmail.fm
+ssl = yes
+expunge = no
+cert_fingerprint = fb60e0a231288866d7daf3a5350cdbfa1e74b552
+folderfilter = lambda foldername: foldername not in ['INBOX.Trash']
+maxconnections = 3
+
