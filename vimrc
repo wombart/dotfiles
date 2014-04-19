@@ -1,11 +1,15 @@
 execute pathogen#infect()
 syn on
-color smyck
 let mapleader = ","
 nnoremap . :
 
 set nocompatible                " choose no compatibility with legacy vi
 syntax enable
+color smyck
+"set background=dark
+"colorscheme solarized
+"colorscheme desert
+
 set encoding=utf-8
 set showcmd                     " display incomplete commands
 filetype plugin indent on       " load file type plugins + indentation
@@ -57,8 +61,8 @@ map <Leader>n :NERDTreeToggle<CR>
 " make Python follow PEP8 ( http://www.python.org/dev/peps/pep-0008/ )
 au FileType python set softtabstop=4 tabstop=4 shiftwidth=4 textwidth=79
 au FileType mkd autocmd! BufWritePre
+au FileType mkd set textwidth=79
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
-
 
